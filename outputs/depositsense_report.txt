@@ -1,0 +1,13 @@
+DEPOSITSENSE — MANAGEMENT SUMMARY
+Synthetic educational analysis; not a bank forecast.
+
+ segment  accounts  average_balance  median_balance  balance_std  total_deposits  total_withdrawals  material_outflow_rate
+Affluent       224     10503.263374     6381.685648 12931.631947    2.746028e+06       4.030445e+06               0.045585
+Everyday       659     12794.052125     7446.552408 17273.171852    8.057272e+06       1.171509e+07               0.037304
+  Salary       518     11539.331050     7054.529456 14514.240753    6.367585e+06       9.122715e+06               0.037709
+ Savings       399     11106.748025     6697.211301 17025.914247    4.887946e+06       7.106815e+06               0.041729
+
+LIQUIDITY BUFFER POLICIES
+80% buffer: 2,661,956.43 | expected cost: 912.83
+90% buffer: 2,709,972.91 | expected cost: 551.81
+95% buffer: 2,750,372.65 | expected cost: 432.94

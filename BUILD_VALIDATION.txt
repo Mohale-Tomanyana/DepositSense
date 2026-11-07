@@ -1,0 +1,60 @@
+MAIN EXIT CODE: 0
+
+DEPOSITSENSE | RETAIL DEPOSIT STABILITY & LIQUIDITY
+
+SEGMENT SUMMARY
+ segment  accounts  average_balance  median_balance  balance_std  total_deposits  total_withdrawals  material_outflow_rate
+Affluent       224         10503.26         6381.69     12931.63      2746028.13         4030444.58                   0.05
+Everyday       659         12794.05         7446.55     17273.17      8057272.33        11715092.49                   0.04
+  Salary       518         11539.33         7054.53     14514.24      6367584.85         9122715.28                   0.04
+ Savings       399         11106.75         6697.21     17025.91      4887946.29         7106814.66                   0.04
+
+Average daily net outflow: 55,090.20
+95% confidence interval: (53,171.94, 57,008.45)
+Bootstrap 95% interval: (53,215.17, 56,942.57)
+Bayesian posterior mean material-outflow probability: 9.740%
+Approximate 95% posterior interval: (0.09595757270161501, 0.09884521724962256)
+Least-squares trend slope: -160.42 currency units/day
+Marginal holding cost rate: 0.0015
+
+STRESS-SCENARIO BUFFER POLICIES
+80% percentile: buffer=2,661,956.43, expected cost=912.83
+90% percentile: buffer=2,709,972.91, expected cost=551.81
+95% percentile: buffer=2,750,372.65, expected cost=432.94
+
+Report and charts saved to: /mnt/data/DepositSense_Project/outputs
+
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
+
+TEST EXIT CODE: 0
+
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
+test_bayesian_update (test_core.TestDepositSense.test_bayesian_update) ... ok
+test_buffer_cost_nonnegative (test_core.TestDepositSense.test_buffer_cost_nonnegative) ... ok
+test_confidence_interval_contains_mean (test_core.TestDepositSense.test_confidence_interval_contains_mean) ... ok
+test_least_squares_slope (test_core.TestDepositSense.test_least_squares_slope) ... ok
+test_simulation_shape (test_core.TestDepositSense.test_simulation_shape) ... ok
+test_simulation_stress_deterministic (test_core.TestDepositSense.test_simulation_stress_deterministic) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.005s
+
+OK

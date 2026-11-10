@@ -73,3 +73,9 @@ DepositSense/
 ### Liquidity Buffer Comparison
 
 ![DepositSense Liquidity Policy Costs](outputs/liquidity_policy_costs.png)
+
+---
+
+**Copyright © 2026 Mohale Tomanyana. All rights reserved.**
+
+This project was developed by Mohale Tomanyana for educational and portfolio purposes.

@@ -69,9 +69,47 @@ All data is synthetic and does not represent actual customer or bank data. Inter
 
 ## Project Visualisation
 
-### Liquidity Buffer Comparison
+The following visualisations illustrate key findings from the DepositSense liquidity and deposit stability analysis.
 
-![DepositSense Liquidity Policy Costs](outputs/liquidity_policy_costs.png)
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <strong>Deposit Balances by Segment</strong>
+      <br><br>
+      <img src="outputs/deposit_balances_by_segment.png"
+           width="100%"
+           alt="Deposit balances by segment">
+      <p><sub>Comparison of deposit balances across different customer segments.</sub></p>
+    </td>
+    <td width="50%" align="center">
+      <strong>Liquidity Policy Costs</strong>
+      <br><br>
+      <img src="outputs/liquidity_policy_costs.png"
+           width="100%"
+           alt="Liquidity policy costs">
+      <p><sub>Comparison of costs associated with alternative liquidity policies.</sub></p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## Statistical Report
+
+DepositSense generates a detailed statistical report containing the numerical results and analytical findings of the project.
+
+The report provides supporting information for the deposit stability analysis, statistical modelling and liquidity policy comparisons.
+
+**[View Full Statistical Report](outputs/depositsense_report.txt)**
+
+---
+
+## Data & Reproducibility
+
+All data used in this project are synthetically generated for educational and analytical purposes.
+
+The visualisations and statistical reports are generated programmatically using Python and scientific computing libraries.
+
 
 ---
 
